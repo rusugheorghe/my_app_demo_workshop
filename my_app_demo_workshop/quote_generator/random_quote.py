@@ -1,7 +1,7 @@
 from os.path import join
 from random import choice
 import json
-from my_app_demo_workshop.config import ROOT_PATH
+from ..config import ROOT_PATH
 
 QUOTES_PATH = join(ROOT_PATH, 'quote_generator', 'quotes.json')
 with open(QUOTES_PATH, 'r') as fp:
