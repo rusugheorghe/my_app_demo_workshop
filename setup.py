@@ -11,7 +11,7 @@ setup(name='my_app_demo_workshop',
       include_package_data=True,
       packages=find_packages(),
       python_requires='>=3.6',
-      install_requires=['flask==1.0.2'],
+      install_requires=['flask==2.3.2'],
       entry_points={
               'console_scripts': ['my_app=my_app_demo_workshop.my_app:main'],
           },
